@@ -1,4 +1,5 @@
-﻿ using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -28,9 +29,8 @@ namespace StarterAssets
         [Tooltip("Acceleration and deceleration")]
         public float SpeedChangeRate = 10.0f;
 
-        public AudioClip LandingAudioClip;
-        public AudioClip[] FootstepAudioClips;
-        [Range(0, 1)] public float FootstepAudioVolume = 0.5f;
+        [Tooltip("Sensitivity when aim")]
+        public float Sensitivity = 1f;
 
         [Space(10)]
         [Tooltip("The height the player can jump")]
@@ -86,6 +86,7 @@ namespace StarterAssets
         private float _rotationVelocity;
         private float _verticalVelocity;
         private float _terminalVelocity = 53.0f;
+        private bool _isRotateOnMove = true;
 
         // timeout deltatime
         private float _jumpTimeoutDelta;
@@ -101,7 +102,8 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
 #endif
-        private Animator _animator;
+        [SerializeField] private Animator _animator;
+        [SerializeField] private PlaySFXFootStep _footstep;
         private CharacterController _controller;
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
@@ -136,7 +138,7 @@ namespace StarterAssets
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
             
-            _hasAnimator = TryGetComponent(out _animator);
+            _hasAnimator = _animator != null;
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM 
@@ -150,12 +152,12 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+
+            _footstep.Init(_controller);
         }
 
         private void Update()
         {
-            _hasAnimator = TryGetComponent(out _animator);
-
             JumpAndGravity();
             GroundedCheck();
             Move();
@@ -196,7 +198,7 @@ namespace StarterAssets
             if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
             {
                 //Don't multiply mouse input by Time.deltaTime;
-                float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
+                float deltaTimeMultiplier = (IsCurrentDeviceMouse ? 1.0f : Time.deltaTime) * Sensitivity;
 
                 _cinemachineTargetYaw += _input.look.x * deltaTimeMultiplier;
                 _cinemachineTargetPitch += _input.look.y * deltaTimeMultiplier;
@@ -261,9 +263,11 @@ namespace StarterAssets
                     RotationSmoothTime);
 
                 // rotate to face input direction relative to camera position
-                transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
+                if (_isRotateOnMove)
+                {
+                    transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
+                }
             }
-
 
             Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
 
@@ -369,24 +373,19 @@ namespace StarterAssets
                 GroundedRadius);
         }
 
-        private void OnFootstep(AnimationEvent animationEvent)
+        public void SetSensitivity(float value)
         {
-            if (animationEvent.animatorClipInfo.weight > 0.5f)
-            {
-                if (FootstepAudioClips.Length > 0)
-                {
-                    var index = Random.Range(0, FootstepAudioClips.Length);
-                    AudioSource.PlayClipAtPoint(FootstepAudioClips[index], transform.TransformPoint(_controller.center), FootstepAudioVolume);
-                }
-            }
+            Sensitivity = value;
         }
 
-        private void OnLand(AnimationEvent animationEvent)
+        public void SetRotateOnMove(bool isRotate)
         {
-            if (animationEvent.animatorClipInfo.weight > 0.5f)
-            {
-                AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
-            }
+            _isRotateOnMove = isRotate;
+        }
+
+        public async void SetAim(float aimWeight)
+        {
+            _animator.SetLayerWeight(_animator.GetLayerIndex("Aim Layer"), aimWeight);
         }
     }
 }
