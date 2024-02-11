@@ -13,6 +13,8 @@ public class ThirdPersonShooterController : MonoBehaviour
     #region --------------- Variable Declare ---------------
 
     [SerializeField]
+    private CharacterWeaponControl weaponController;
+    [SerializeField]
     private CinemachineVirtualCamera aimVirtualCamera;
     [SerializeField]
     private ThirdPersonController thirdPersonController;
@@ -53,6 +55,8 @@ public class ThirdPersonShooterController : MonoBehaviour
         aimVirtualCamera.gameObject.SetActive(starterAssetsInputs.aim);
         thirdPersonController.SetSensitivity(starterAssetsInputs.aim ? aimSensisitivity : normalSensitivity);
         thirdPersonController.SetRotateOnMove(starterAssetsInputs.aim == false);
+        weaponController.Attack(starterAssetsInputs.attack);
+
         CheckAimAnimation();
 
         AimRotation();

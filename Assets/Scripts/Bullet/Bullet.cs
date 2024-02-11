@@ -27,7 +27,7 @@ namespace TFFT.Weapon
             var distanceBefore = (targetPos - transform.position).sqrMagnitude;
 
             var moveDir = (targetPos - transform.position).normalized;
-            transform.position += moveDir * moveSpeed * Time.deltaTime;
+            transform.position += moveSpeed * Time.deltaTime * moveDir;
 
             var distanceAfter = (targetPos - transform.position).sqrMagnitude;
 
