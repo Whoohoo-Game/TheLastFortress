@@ -17,7 +17,7 @@ namespace TFFT.Weapon
         [SerializeField]
         private Transform firePos;
         [SerializeField]
-        private Transform fireTrail;
+        private Bullet bulletPreb;
 
         //Weapon current stat
         protected int currentMagazineAmmo;
@@ -83,7 +83,8 @@ namespace TFFT.Weapon
                 return false;
             }
 
-            var trail = Instantiate(fireTrail, firePos.position, transform.rotation);
+            var bullet = Instantiate(bulletPreb, firePos.position, transform.rotation);
+            bullet.SetBulletPower(hit.point, weaponData.FirePower);
 
             return true;
         }

@@ -9,6 +9,7 @@ namespace TFFT.Weapon {
         public int BaseDamage;
         public int BaseMagazineAmmo;
         public int Duration;
+        public float FirePower;
     }
 
     public enum WeaponID { 
