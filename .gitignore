@@ -70,3 +70,158 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Easy Character Movement/Examples/Animation.meta
+Assets/Easy Character Movement/Examples/Animator.meta
+Assets/Easy Character Movement/Examples/Materials.meta
+Assets/Easy Character Movement/Examples/Models.meta
+Assets/Easy Character Movement/Examples/Prefabs.meta
+Assets/Easy Character Movement/Examples/Scenes.meta
+Assets/Easy Character Movement/Examples/Scripts.meta
+Assets/Easy Character Movement/Examples/Textures.meta
+Assets/Easy Character Movement/Examples/Animation/Camera.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidCrouch.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidCrouch.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidIdle.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidIdle.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidIdleJumpUp.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidIdleJumpUp.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidJumpAndFall.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidJumpAndFall.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidMidAir.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidMidAir.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidRun.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidRun.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurn.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurn.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurnSharp.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidRunTurnSharp.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidStandTurn.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidStandTurn.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidWalk.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidWalk.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurn.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurn.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurnSharp.fbx
+Assets/Easy Character Movement/Examples/Animation/HumanoidWalkTurnSharp.fbx.meta
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraBackwardWalk.anim
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraBackwardWalk.anim.meta
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraForwardWalk.anim
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraForwardWalk.anim.meta
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraIdle.anim
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraIdle.anim.meta
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeLeftWalk.anim
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeLeftWalk.anim.meta
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeRightWalk.anim
+Assets/Easy Character Movement/Examples/Animation/Camera/CameraStrafeRightWalk.anim.meta
+Assets/Easy Character Movement/Examples/Animator/FPS Camera Controller.controller
+Assets/Easy Character Movement/Examples/Animator/FPS Camera Controller.controller.meta
+Assets/Easy Character Movement/Examples/Animator/ThirdPersonAnimatorController.controller
+Assets/Easy Character Movement/Examples/Animator/ThirdPersonAnimatorController.controller.meta
+Assets/Easy Character Movement/Examples/Materials/Agent Body.mat
+Assets/Easy Character Movement/Examples/Materials/Agent Body.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Black.mat
+Assets/Easy Character Movement/Examples/Materials/Black.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Blue.mat
+Assets/Easy Character Movement/Examples/Materials/Blue.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Cyan Grid.mat
+Assets/Easy Character Movement/Examples/Materials/Cyan Grid.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Dark Grey.mat
+Assets/Easy Character Movement/Examples/Materials/Dark Grey.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Dirt.mat
+Assets/Easy Character Movement/Examples/Materials/Dirt.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Ethan.mat
+Assets/Easy Character Movement/Examples/Materials/Ethan.mat.meta
+Assets/Easy Character Movement/Examples/Materials/EthanWhite.mat
+Assets/Easy Character Movement/Examples/Materials/EthanWhite.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Grass.mat
+Assets/Easy Character Movement/Examples/Materials/Grass.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Grid.mat
+Assets/Easy Character Movement/Examples/Materials/Grid.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Light Grey.mat
+Assets/Easy Character Movement/Examples/Materials/Light Grey.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Orange.mat
+Assets/Easy Character Movement/Examples/Materials/Orange.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Pink.mat
+Assets/Easy Character Movement/Examples/Materials/Pink.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Player.mat
+Assets/Easy Character Movement/Examples/Materials/Player.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Red.mat
+Assets/Easy Character Movement/Examples/Materials/Red.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Top Grid.mat
+Assets/Easy Character Movement/Examples/Materials/Top Grid.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Water.mat
+Assets/Easy Character Movement/Examples/Materials/Water.mat.meta
+Assets/Easy Character Movement/Examples/Materials/Yellow.mat
+Assets/Easy Character Movement/Examples/Materials/Yellow.mat.meta
+Assets/Easy Character Movement/Examples/Models/Demo_Level.FBX
+Assets/Easy Character Movement/Examples/Models/Demo_Level.FBX.meta
+Assets/Easy Character Movement/Examples/Models/Ethan.fbx
+Assets/Easy Character Movement/Examples/Models/Ethan.fbx.meta
+Assets/Easy Character Movement/Examples/Models/Rocks01.fbx
+Assets/Easy Character Movement/Examples/Models/Rocks01.fbx.meta
+Assets/Easy Character Movement/Examples/Models/Rocks03.fbx
+Assets/Easy Character Movement/Examples/Models/Rocks03.fbx.meta
+Assets/Easy Character Movement/Examples/Prefabs/Demo_Level.prefab
+Assets/Easy Character Movement/Examples/Prefabs/Demo_Level.prefab.meta
+Assets/Easy Character Movement/Examples/Prefabs/Ethan.prefab
+Assets/Easy Character Movement/Examples/Prefabs/Ethan.prefab.meta
+Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example.meta
+Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example.unity
+Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example.unity.meta
+Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example/NavMesh-Plane.asset
+Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example/NavMesh-Plane.asset.meta
+Assets/Easy Character Movement/Examples/Scripts/Common.meta
+Assets/Easy Character Movement/Examples/Scripts/Components.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers.meta
+Assets/Easy Character Movement/Examples/Scripts/Common/Utils.cs
+Assets/Easy Character Movement/Examples/Scripts/Common/Utils.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Components/CrouchingModelScaler.cs
+Assets/Easy Character Movement/Examples/Scripts/Components/CrouchingModelScaler.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Components/KinematicMove.cs
+Assets/Easy Character Movement/Examples/Scripts/Components/KinematicMove.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Components/KinematicRotate.cs
+Assets/Easy Character Movement/Examples/Scripts/Components/KinematicRotate.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomAgentController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomAgentController.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomCharacterController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/CustomCharacterController.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/DemoController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/DemoController.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanAgentController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanAgentController.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanCharacterController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanCharacterController.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanPlatformerController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/EthanPlatformerController.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/FollowCameraController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/FollowCameraController.cs.meta
+Assets/Easy Character Movement/Examples/Scripts/Controllers/FPS_CustomController.cs
+Assets/Easy Character Movement/Examples/Scripts/Controllers/FPS_CustomController.cs.meta
+Assets/Easy Character Movement/Examples/Textures/EthanAlbedoSpecular.png
+Assets/Easy Character Movement/Examples/Textures/EthanAlbedoSpecular.png.meta
+Assets/Easy Character Movement/Examples/Textures/EthanNormals.png
+Assets/Easy Character Movement/Examples/Textures/EthanNormals.png.meta
+Assets/Easy Character Movement/Examples/Textures/EthanOcclusion.png
+Assets/Easy Character Movement/Examples/Textures/EthanOcclusion.png.meta
+Assets/Easy Character Movement/Examples/Textures/GridEmissive.png
+Assets/Easy Character Movement/Examples/Textures/GridEmissive.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchMauveAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchMauveAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchNavyAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchNavyAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchNavyDarkAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchNavyDarkAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchOrangeAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchOrangeAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchPinkDAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchPinkDAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchTealAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchTealAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchTurquoiseAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchTurquoiseAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchWhiteAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchWhiteAlbedo.png.meta
+Assets/Easy Character Movement/Examples/Textures/SwatchYellowAlbedo.png
+Assets/Easy Character Movement/Examples/Textures/SwatchYellowAlbedo.png.meta
